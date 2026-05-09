@@ -4,7 +4,9 @@ A pared-down Kubernetes control plane in Rust (`krust`), adversarially tested by
 
 ## Why?
 
-Because I think sims are cool and I want to understand how Kubernetes works internally
+1. Sims are cool
+2. I want to understand how Kubernetes works internally
+3. I want to learn Rust and get better at Go
 
 ## Structure
 

@@ -2,13 +2,17 @@
 
 A pared-down Kubernetes control plane in Rust (`krust`), adversarially tested by a Go simulation harness (`dist-sim`).
 
+## Why?
+
+Because I think sims are cool and I want to understand how Kubernetes works internally
+
 ## Structure
 
 ```
 rust/          # Rust workspace
-  raft/        # Phase 1: Raft consensus — becomes krust's state store
+  raft/        # Phase 1: Raft consensus: becomes krust's state store
   krust/       # Phase 2+: control plane (API server, scheduler, reconciler)
-dist-sim/      # Go simulation harness — attacks krust with variable traffic and fault injection
+dist-sim/      # Go simulation harness: attacks krust with variable traffic and fault injection
 ```
 
 ## Phases

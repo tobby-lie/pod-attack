@@ -1,0 +1,10 @@
+# Rust
+rust/target/
+
+# Go
+dist-sim/bin/
+
+# Editor
+.DS_Store
+.idea/
+.vscode/
